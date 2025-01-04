@@ -1,0 +1,18 @@
+---
+services:
+  osticket:
+    build: .
+    container_name: osticket
+    restart: unless-stopped
+    volumes:
+      - osticket_data:/data
+    networks:
+      - caddy
+    
+volumes:
+  osticket_data
+
+networks:
+  caddy:
+    name: "caddy"
+    external: true

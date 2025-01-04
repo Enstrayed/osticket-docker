@@ -1,0 +1,4 @@
+::sysinit:/usr/sbin/php-fpm82 --allow-to-run-as-root
+::sysinit:/usr/local/bin/startup.sh
+::sysinit:/usr/sbin/caddy start --config /etc/caddy/Caddyfile
+::askfirst:-/bin/sh

@@ -1,0 +1,8 @@
+:8080 {
+    root * /var/www/upload
+    file_server
+    php_fastcgi * unix//run/php/php-fpm.sock {
+        capture_stderr
+    }
+    respond /include* 401
+}

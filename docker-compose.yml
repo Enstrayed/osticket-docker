@@ -10,7 +10,7 @@ services:
       - caddy
     
 volumes:
-  osticket_data
+  osticket_data:
 
 networks:
   caddy:

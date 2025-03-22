@@ -9,4 +9,5 @@
         capture_stderr
     }
     respond /include* 401
+    rewrite /api/auth/oauth2 /api/http.php/auth/oauth2
 }

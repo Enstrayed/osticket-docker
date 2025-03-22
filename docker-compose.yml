@@ -8,9 +8,9 @@ services:
       - osticket_data:/data
     networks:
       - caddy
-    
+
 volumes:
-  osticket_data
+  osticket_data:
 
 networks:
   caddy:

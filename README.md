@@ -27,4 +27,4 @@ to your primary Caddyfile and be set. If you want the container's Caddy to handl
 This container is essentially a walled garden, the idea is that you shouldn't have to expose/access anything other than port 8080. Thus the extremely insecure credentials and permissions inside the container are theoretically irrelevant as they wouldn't be accessed by anything outside the container. However, this is still a really bad idea and it would be a much better idea to actually try and least-privilege the processes running inside the container (especially php). 
 
 ## License
-I don't think there's much copyright vested in me since this repository is basically just configuration files, but for good measure everything is licensed under the MIT License.
+I don't think there's much copyright vested in me since this repository is basically just configuration files, but for good measure the files in this repository are licensed under the MIT License.
